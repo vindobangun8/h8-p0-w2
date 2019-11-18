@@ -1,0 +1,46 @@
+1.Newton Second Law
+
+SET MassaBenda WITH VALUE 600
+SET Percepatan WITH VALUE 2
+SET gaya WITH CALCULATE OF MassaBenda * Percepatan
+
+Display gaya
+
+2.Tahun Kabisat
+
+READ tahun
+IF tahun % 4= 0 THEN
+	IF tahun % 100 != 0 THEN
+		Display "TAHUN KABISAT"
+	ELSE IF tahun % 100 = 0 AND tahun % 400 = 0 THEN
+		Display "TAHUN KABISAT"
+	ELSE THEN
+		DISPLAY "TIDAK TAHUN KABISAT"
+ELSE THEN
+	DISPLAY "TIDAK TAHUN KABISAT"
+
+3.LAUNDRY DAY
+
+SET laundry WITH VALUE 1
+WHILE laundry <= 20 
+	laundry = laundry + 1;
+ENDWHILE
+
+IF laundry = 20 THEN
+	DISPLAY " MESIN CUCI SUDAH BISA DINYALAKAN"
+
+4. Periksa Kuku
+
+SET murid WITH VALUE 1
+// Karena belum diajarin array jadi saya membuat pemisalan kalau nomor murid yang angka genap kukunya panjang
+
+WHILE murid <=40
+	IF murid % 2 = 0 THEN
+		DISPLAY "MURID DIHUKUM"
+	else
+		DISPLAY "MURID DIPUJI"
+	MURID = MURID + 1;
+ENDWHILE
+	
+	
+
