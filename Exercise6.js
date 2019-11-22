@@ -1,26 +1,26 @@
 //soal 1
-// var i =0
-// console.log("looping Pertama")
-// while(i<20){
-//     i+=2
-//     console.log(i," - I love coding")
-// }
+var i =0
+console.log("looping Pertama")
+while(i<20){
+    i+=2
+    console.log(i," - I love coding")
+}
 
-// console.log("looping kedua")
-// while(i>0){
-//     console.log(i,"I will become fullstack developer")
-//     i-=2
-// }
+console.log("looping kedua")
+while(i>0){
+    console.log(i,"I will become fullstack developer")
+    i-=2
+}
 
 //soal 2
-// console.log("Looping Pertama")
-// for(i=1;i<21;i++){
-//     console.log(i," - I love coding")
-// }
-// console.log("Looping Kedua")
-// for(i=20;i>0;i--){
-//     console.log(i," - I will become fullstack developer")
-// }
+console.log("Looping Pertama")
+for(i=1;i<21;i++){
+    console.log(i," - I love coding")
+}
+console.log("Looping Kedua")
+for(i=20;i>0;i--){
+    console.log(i," - I will become fullstack developer")
+}
 
 //soal 3
 //Angka Genap Ganjil
